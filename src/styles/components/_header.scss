@@ -77,7 +77,7 @@
                 position: fixed;
                 top: 0;
                 right: -100%;
-                // background-color: #ffffff;
+                background-color: #000000;
                 margin-top: calc(var(--header-height) + 2rem);
                 width: 70%;
                 height: 100%;
@@ -85,6 +85,7 @@
                 transition: right .4s;
                 flex-direction: column;
                 justify-content: center;
+                color: #ffffff;
 
                 &.show-menu{
                     // display: block;

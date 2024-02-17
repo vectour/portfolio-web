@@ -1,0 +1,44 @@
+.exp{
+    background: var(--black-color);
+
+    .container{
+
+        .exp__container{
+
+            h2{
+                text-align: center;
+                font-weight: 300;
+                margin: 0 auto;
+            }
+
+            &__list{
+
+                &__item{
+                    width: 100%;
+                    margin: 2em auto;
+                    border: 0.2px solid #ccc;
+                    border-radius: 10px;
+                    padding: 1.5em 1.25em;
+
+
+
+                    p{
+                        color: #ccc
+                    }
+
+                    &__title {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 1.5em;
+
+                        .company-name-logo{
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

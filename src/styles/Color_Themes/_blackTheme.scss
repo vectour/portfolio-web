@@ -1,4 +1,4 @@
-.landing.theme-white {
+.landing.theme-black {
     h1,h2,h3,h4,h5,a {
         color: var(--black-color);
     }
@@ -7,6 +7,8 @@
     .alt-color h2,
     .alt-color h3,
     .alt-color h4,
+    .alt-color h5,
+    .alt-color i,
     .alt-color p,
     .alt-color a{
         color: var(--white-color);

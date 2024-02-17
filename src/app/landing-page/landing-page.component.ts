@@ -7,7 +7,7 @@ import { Component, OnInit} from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  default_theme : string = 'theme-white';
+  default_theme : string = 'theme-black';
 
   storedTheme : string = localStorage.getItem('theme-color') ?? 'default_theme';
 
