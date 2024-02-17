@@ -1,0 +1,43 @@
+.landing.theme-white {
+    h1,h2,h3,h4,h5,a {
+        color: var(--black-color);
+    }
+
+    .alt-color h1,
+    .alt-color h2,
+    .alt-color h3,
+    .alt-color h4,
+    .alt-color p,
+    .alt-color a{
+        color: var(--white-color);
+    }
+
+
+
+    button {
+        background: var(--black-color);
+        color: var(--white-color);
+
+        &:hover {
+            background: var(--white-color);
+            color: var(--black-color);
+            border: 1px solid var(--black-color);
+        }
+    }
+    svg{
+        fill: var(--black-color);
+    }
+    
+    .primary-color{
+        color: var(--black-color);
+    }
+
+    .secondary-color {
+        color: var(--black-color);
+    }
+    
+    .outline-color {
+        outline-color: var(--black-color);
+
+    }
+}

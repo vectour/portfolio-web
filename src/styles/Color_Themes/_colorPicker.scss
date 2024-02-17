@@ -1,0 +1,47 @@
+// Color theme imports
+@import 'src/styles/Color_Themes/blueTheme';
+@import 'src/styles/Color_Themes/greenTheme';
+@import 'src/styles/Color_Themes/blackTheme';
+@import 'src/styles/Color_Themes/redTheme';
+@import 'src/styles/Color_Themes/orangeTheme';
+
+
+
+.white {
+    background: radial-gradient(circle at top left, #000000 50%, #ffffff 50%);
+}
+
+.blue {
+    background: radial-gradient(circle at top left, #000000 50%, #0e20e8 50%);
+}
+
+.red {
+    background: radial-gradient(circle at top left, #000000 50%, #e80e0e 50%);
+}
+
+.orange{
+    background: radial-gradient(circle at top left, #000000 50%, #d36e14 50%);
+}
+
+.green {
+    background: radial-gradient(circle at top left, #000000 50%, #61e917 50%);
+}
+
+
+.color-picker {
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+
+.color-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}

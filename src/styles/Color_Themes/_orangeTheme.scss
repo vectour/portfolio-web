@@ -1,0 +1,43 @@
+.landing.theme-orange {
+    h1,h2,h3,h4,h5,a {
+        color: var(--orange-color);
+    }
+
+    .alt-color h1,
+    .alt-color h2,
+    .alt-color h3,
+    .alt-color h4,
+    .alt-color p,
+    .alt-color a{
+        color: var(--white-color);
+    }
+
+
+
+    button {
+        background: var(--orange-color);
+        color: var(--white-color);
+
+        &:hover {
+            background: var(--white-color);
+            color: var(--orange-color);
+            border: 1px solid var(--orange-color);
+        }
+    }
+    svg{
+        fill: var(--orange-color);
+    }
+    
+    .primary-color{
+        color: var(--orange-color);
+    }
+
+    .secondary-color {
+        color: var(--orange-color);
+    }
+    
+    .outline-color {
+        outline-color: var(--orange-color);
+
+    }
+}

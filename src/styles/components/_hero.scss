@@ -1,0 +1,36 @@
+.hero {
+    margin-top: 12em;
+
+    .container {
+
+        .hero {
+
+            &__container {
+                
+        
+                text-align: center;
+        
+                &__detail {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    row-gap: 0.5em;
+                    padding: auto 0;
+                    margin-bottom: 5em;
+        
+                    &__cave{
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                }
+                &__img{
+        
+                }
+            }
+
+
+        }
+    }
+
+
+}
